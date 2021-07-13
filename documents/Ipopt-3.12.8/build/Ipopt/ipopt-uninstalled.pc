@@ -1,0 +1,10 @@
+prefix=/home/mfikih15/minicar_test/documents/Ipopt-3.12.8/build
+libdir=/home/mfikih15/minicar_test/documents/Ipopt-3.12.8/build/Ipopt/src/Interfaces
+
+Name: IPOPT
+Description: Interior Point Optimizer
+URL: https://projects.coin-or.org/Ipopt
+Version: 3.12.8
+Libs: ${libdir}/libipopt.la -llapack -lblas -lm  -ldl
+Cflags: -I/home/mfikih15/minicar_test/documents/Ipopt-3.12.8/Ipopt/src/Interfaces -I/home/mfikih15/minicar_test/documents/Ipopt-3.12.8/Ipopt/src/Common -I/home/mfikih15/minicar_test/documents/Ipopt-3.12.8/Ipopt/src/LinAlg -I/home/mfikih15/minicar_test/documents/Ipopt-3.12.8/Ipopt/src/Algorithm -I/home/mfikih15/minicar_test/documents/Ipopt-3.12.8/Ipopt/src/contrib/CGPenalty -I/home/mfikih15/minicar_test/documents/Ipopt-3.12.8/Ipopt/src/contrib/LinearSolverLoader -I/home/mfikih15/minicar_test/documents/Ipopt-3.12.8/build/Ipopt/src/Common
+Requires: coinmumps coinhsl >= 1.3 

@@ -1,0 +1,1 @@
+            -L/home/mfikih15/minicar_test/documents/Ipopt-3.12.8/build/lib -L/home/mfikih15/minicar_test/documents/Ipopt-3.12.8/build/lib -L/usr/local/lib -lipopt -llapack -lblas -ldl -lcoinmumps -lblas -lcoinmetis -lcoinhsl             -lstdc++ -lm

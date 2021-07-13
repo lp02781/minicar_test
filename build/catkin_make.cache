@@ -1,0 +1,2 @@
+hypharos_minicar
+-DCATKIN_DEVEL_PREFIX=/home/mfikih15/minicar_test/devel -DCMAKE_INSTALL_PREFIX=/home/mfikih15/minicar_test/install -G Unix Makefiles
