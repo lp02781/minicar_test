@@ -2,4 +2,4 @@
 source_root_dir = '/home/mfikih15/minicar_test/src'
 whitelisted_packages = ''.split(';') if '' != '' else []
 blacklisted_packages = ''.split(';') if '' != '' else []
-underlay_workspaces = '/home/mfikih15/minicar_test/devel;/home/mfikih15/kkctbn_simulation/devel;/home/mfikih15/gazebo_simulation/devel;/home/mfikih15/KKCTBN_2018/devel;/opt/ros/melodic'.split(';') if '/home/mfikih15/minicar_test/devel;/home/mfikih15/kkctbn_simulation/devel;/home/mfikih15/gazebo_simulation/devel;/home/mfikih15/KKCTBN_2018/devel;/opt/ros/melodic' != '' else []
+underlay_workspaces = '/opt/ros/noetic'.split(';') if '/opt/ros/noetic' != '' else []

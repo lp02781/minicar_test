@@ -48,8 +48,8 @@ ADD_EXECUTABLE( MPC_Node src/MPC.cpp src/MPC_Node.cpp )
 TARGET_LINK_LIBRARIES(MPC_Node ipopt ${catkin_LIBRARIES} )
 
 # Pure Pursuit Node
-add_executable(Pure_Pursuit src/Pure_Pursuit.cpp)
-target_link_libraries(Pure_Pursuit ${catkin_LIBRARIES})
+#add_executable(Pure_Pursuit src/Pure_Pursuit.cpp)
+#target_link_libraries(Pure_Pursuit ${catkin_LIBRARIES})
 
 #############
 ## Example ##
