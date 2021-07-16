@@ -1,2 +1,2 @@
-hypharos_minicar
+hypharos_minicar:mrpt_slam/mrpt_ekf_slam_2d:mrpt_slam/mrpt_ekf_slam_3d:mrpt_slam/mrpt_graphslam_2d:mrpt_slam/mrpt_icp_slam_2d:mrpt_slam/mrpt_rbpf_slam:mrpt_slam/mrpt_slam
 -DCATKIN_DEVEL_PREFIX=/home/mfikih15/minicar_test/devel -DCMAKE_INSTALL_PREFIX=/home/mfikih15/minicar_test/install -G Unix Makefiles

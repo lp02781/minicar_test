@@ -7,9 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/mfikih15/minicar_test/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/mfikih15/minicar_test/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/mfikih15/minicar_test/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/mfikih15/minicar_test/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/mfikih15/minicar_test/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/mfikih15/minicar_test/src:$ROS_PACKAGE_PATH"
